@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RepoSense AI — GitHub Repository Analyzer</title>
+    <meta name="description" content="AI-powered GitHub repository analyzer with actionable insights" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#4f46e5" />
+
+    <meta property="og:title" content="RepoSense AI — GitHub Repository Analyzer" />
+    <meta property="og:description" content="AI-powered GitHub repository analyzer with actionable insights" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%VITE_APP_URL%" />
+    <meta property="og:image" content="/og-image.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RepoSense AI — GitHub Repository Analyzer" />
+    <meta name="twitter:description" content="AI-powered GitHub repository analyzer with actionable insights" />
+    <meta name="twitter:image" content="/og-image.svg" />
+
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <script defer data-domain="%VITE_PLAUSIBLE_DOMAIN%" src="https://plausible.io/js/script.js"></script>
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("reposense-theme");
+          if (!theme) theme = "dark";
+          if (theme === "dark") document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

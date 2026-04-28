@@ -1,0 +1,59 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Docker
+.docker/
+
+# Database
+*.db
+*.sqlite3
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+
+# Alembic (keep versions, ignore compiled)
+backend/app/db/migrations/versions/*.pyc
+
+.venv/
+backend/.venv/
+
+.github/
+.logs/
+CHANGELOG.md
+DEPLOYMENT.md
