@@ -53,7 +53,7 @@ backend/app/db/migrations/versions/*.pyc
 .venv/
 backend/.venv/
 
-.github/
+
 .logs/
 CHANGELOG.md
 DEPLOYMENT.md
