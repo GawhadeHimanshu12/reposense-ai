@@ -2,6 +2,8 @@
 
 AI-powered GitHub repository analyzer that delivers actionable insights on code quality, security, and maintainability with privacy-friendly analytics.
 
+**Live:** [https://reposense.live](https://reposense.live) | **API:** [https://api.reposense.live/docs](https://api.reposense.live/docs)
+
 ## Tech Stack
 
 | Layer     | Technology                                          |
@@ -159,4 +161,10 @@ pytest --cov=app tests/
 
 ## Deployment
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for Railway/Vercel/Docker production setup.
+Deployed on DigitalOcean (Ubuntu 24.04, 2GB RAM) with Docker Compose + host Nginx + Let's Encrypt SSL.
+
+- Frontend: [https://reposense.live](https://reposense.live)
+- API: [https://api.reposense.live](https://api.reposense.live)
+- Auto-deploy on push to `main` via GitHub Actions
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for full setup guide.
