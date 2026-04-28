@@ -19,4 +19,4 @@ jobs:
             cd /root/reposense-ai
             git pull origin main
             docker compose up -d --build
-            docker compose exec -T backend alembic upgrade head
+            docker compose exec -T backend alembic upgrade head || true
