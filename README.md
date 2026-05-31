@@ -167,4 +167,4 @@ Deployed on DigitalOcean (Ubuntu 24.04, 2GB RAM) with Docker Compose + host Ngin
 - API: [https://api.reposense.live](https://api.reposense.live)
 - Auto-deploy on push to `main` via GitHub Actions
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for full setup guide.
+
